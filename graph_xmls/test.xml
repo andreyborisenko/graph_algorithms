@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="windows-1251"?>
+  <graph_data>
+    <graph id="1">
+      <title>Triangle</title>
+      <points>
+        <point id="1" x="2" y="2" />
+        <point id="2" x="10" y="2" />
+        <point id="3" x="5" y="6" />
+      </points>
+      <lines>
+        <line id="1" from="1" to="2" weight="21" power="12" />
+        <line id="2" from="2" to="3" weight="18" power="6" />
+        <line id="3" from="3" to="1" weight="15" power="8" />
+      </lines>
+    </graph>
+
+		<graph id="2">
+			<title>Main graph</title>
+			<points>
+				<point id="1"></point>
+				<point id="2"></point>
+				<point id="3"></point>
+				<point id="4"></point>
+				<point id="5"></point>
+				<point id="6"></point>
+				<point id="7"></point>
+				<point id="8"></point>
+				<point id="9"></point>
+			</points>
+			<lines>
+				<line id="1" from="1" to="2" weight="43" />
+				<line id="2" from="2" to="3" weight="3" />
+				<line id="3" from="3" to="4" weight="11" />
+				<line id="4" from="2" to="5" weight="18" />
+				<line id="5" from="5" to="4" weight="67" />
+				<line id="6" from="6" to="2" weight="10" />
+				<line id="7" from="6" to="5" weight="34" />
+				<line id="8" from="1" to="6" weight="12" />
+				<line id="9" from="1" to="8" weight="34" />
+				<line id="10" from="6" to="8" weight="83" />
+				<line id="11" from="6" to="9" weight="5" />
+				<line id="12" from="6" to="7" weight="24" />
+				<line id="13" from="5" to="7" weight="10" />
+				<line id="14" from="4" to="7" weight="34" />
+				<line id="15" from="9" to="7" weight="3" />
+				<line id="16" from="8" to="9" weight="26" />
+			</lines>
+		</graph>
+
+		<graph id="3">
+      <title>Test graph</title>
+      <points>
+				<point id="1"></point>
+				<point id="2"></point>
+				<point id="3"></point>
+				<point id="4"></point>
+				<point id="5"></point>
+				<point id="6"></point>
+      </points>
+      <lines>
+				<line id="1" from="1" to="2" weight="7" />
+				<line id="2" from="2" to="3" weight="10" />
+				<line id="3" from="2" to="4" weight="15" />
+				<line id="4" from="1" to="3" weight="9" />
+				<line id="5" from="1" to="6" weight="14" />
+				<line id="6" from="3" to="6" weight="2" />
+				<line id="7" from="3" to="4" weight="11" />
+				<line id="8" from="4" to="5" weight="6" />
+				<line id="9" from="5" to="6" weight="9" />
+      </lines>
+    </graph>
+  </graph_data>

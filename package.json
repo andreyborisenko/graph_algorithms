@@ -1,0 +1,15 @@
+{
+  "name": "graph_algorithms",
+  "version": "1.0.0",
+  "description": "Graph algorithms implementations for university labs.",
+  "main": "index.js",
+  "repository": "https://github.com/andreyborisenko/graph_algorithms.git",
+  "author": "Andrey Borisenko <andrey.borisenko23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
